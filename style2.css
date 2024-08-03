@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #4B3621;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.card {
+    background-color: #4B3621;
+    width: 280px;
+    height: 477px;
+    margin: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-image {
+    background-color: burlywood;
+    height: 250px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.card-text {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 1 1 10px 10px;
+    text-align: center;
+}
+
+.coffee-1 {
+    background-image: url("caramel%20machiato.jpg");
+}
+
+.coffee-2 {
+    background-image: url("vanillalatte.jpg");
+}
+
+.coffee-3 {
+    background-image: url("frappe.jpg");
+}
+
+.button1 {
+    background-color: bisque;
+    color: #4B3621;
+    padding: 15px 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+    align-self: center;
+}
+
+.button1:hover {
+    transform: scale(1.1);
+    background-color: coral;
+}
+
+.container p {
+    color: #FFD59A;;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px 20px;
+}
+
+
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    background-color: #4B3621;
+    width: 280px;
+    height: 477px;
+    margin: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.card1:hover{
+    transform: scale(1.1);
+}
+
+.card-image1 {
+    background-color: burlywood;
+    height: 250px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.card-text1 {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 1 1 10px 10px;
+    text-align: center;
+}
+
+.coffee-4 {
+    background-image: url("mocha.jpg");
+}
+
+.coffee-5 {
+    background-image: url("Capuccino.jpeg");
+}
+
+.coffee-6 {
+    background-image: url("cookies.jpg");
+}
+
+.button2 {
+    background-color: bisque;
+    color: #4B3621;
+    padding: 15px 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+    align-self: center;
+}
+
+.button2:hover {
+    transform: scale(1.1);
+    background-color: coral;
+}
+
+.container1 p {
+    color: #FFD59A;;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px 20px;
+}
+
+.checkout{
+    text-decoration: none;
+    color:white;
+    background-color: #4B3621;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-left: 90%;
+    margin-top: -50px;
+    margin-right: 30px;
+    transition: transform 0.3s, background-color 0.5s;
+    cursor: pointer;
+}
+
+.checkout:hover{
+    background-color:#FFD59A;
+    transform: scale(1.1);
+    
+}

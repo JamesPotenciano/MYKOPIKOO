@@ -1,0 +1,256 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: bisque;
+}
+
+nav{
+    background-color: #4B3621;
+    padding: 9px 0px;
+}
+
+.brand-container{
+    display: inline-block;
+}
+
+.logo{
+    width: 150px;
+    position: left;
+}
+
+.brand-title{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -20px;
+    left: -25px;
+    color: #F5F5DC;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+}
+
+.brand-title2{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -20px;
+    left: -29px;
+    color: #FFD59A;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.links-container{
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: 26px;
+    left: -15px;
+}
+
+.link{
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    transition: 0.2s;
+    text-decoration: none;
+    margin: 0px 15px
+    
+}
+
+.link:hover{
+    font-size: 38px;
+    color: gold;
+}
+
+.div, .btn-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: -5px;
+    transform: translateY(-50px);
+    transition: 1.5s;
+}
+
+button {
+    width: 912px;
+    height: 240px;
+    font-size: 96px;
+    padding: 10px 20px;
+    background-color: #FFD59A;
+    cursor: pointer;
+    font-family: "Bebas Neue", sans-serif;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #4B3621;
+    padding: 9px 0px;
+}
+
+.brand-container {
+    display: inline-block;
+}
+
+.logo {
+    width: 150px;
+    position: left;
+}
+
+.brand-title {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -20px;
+    left: -25px;
+    color: #F5F5DC;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.brand-title2 {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -20px;
+    left: -29px;
+    color: #FFD59A;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.links-container {
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: 26px;
+    left: -15px;
+}
+
+.link {
+    color: #FFFFFF;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    transition: 0.2s;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+.link:hover {
+    font-size: 38px;
+    color: gold;
+}
+
+.btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    transform: translateY(-50px);
+    transition: 1.5s;
+}
+
+button {
+    width: 912px;
+    height: 240px;
+    font-size: 96px;
+    padding: 10px 20px;
+    background-color: #FFD59A;
+    cursor: pointer;
+    font-family: "Bebas Neue", sans-serif;
+    border-radius: 25px;
+    transition: transform 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1); /* Scales the button to 110% of its original size */
+}
+
+.about-section {
+    padding: 50px 20px;
+    background-color: #F5F5DC;
+}
+
+.about-us {
+    text-align: center;
+    font-size: 45px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #4B3621;
+    margin-bottom: 20px;
+}
+
+.aboutp {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #4B3621;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-section .contacts {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 45px; 
+    color: #4B3621;
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: bisque;
+}
+
+.contact-section .contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-section .contact-icons a {
+    font-size: 40px; 
+    color: #4B3621;
+    margin: 0 20px; 
+    transition: transform 0.3s;
+}
+
+.contact-section .contact-icons a:hover {
+    transform: scale(1.1); 
+}
+
+.contact-section .contact-text {
+    font-size: 25px; 
+    color: #4B3621;
+    text-align: center;
+}
+
